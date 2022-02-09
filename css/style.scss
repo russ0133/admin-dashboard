@@ -1,0 +1,68 @@
+@import "normalize/import-now";
+
+.container {
+  height: 100vh;
+
+  background-color: lightcoral;
+  display: flex;
+
+  .sidebar {
+    width: 15%;
+    background-color: lightgreen;
+  }
+
+  .wrapper {
+    flex: 4;
+    background-color: lightblue;
+
+    display: flex;
+    flex-direction: column;
+
+    .header {
+      height: 25%;
+      background-color: lightseagreen;
+    }
+
+    .content {
+      display: flex;
+      flex: 1;
+
+      margin: 1.2rem;
+
+      background-color: red;
+
+      .left {
+        flex: 2.5;
+
+        display: grid;
+
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(3, 1fr);
+
+        margin: 0;
+        min-width: 50px;
+        min-height: 50px;
+        gap: 1rem;
+
+        background-color: blue;
+
+        * {
+          min-width: 50px;
+          min-height: 50px;
+          gap: 5px;
+          background-color: pink;
+        }
+      }
+
+      .right {
+        flex: 1;
+
+        min-width: 50px;
+        min-height: 50px;
+        gap: 5px;
+
+        background-color: black;
+      }
+    }
+  }
+}
