@@ -1,0 +1,17 @@
+@font-face {
+
+  font-family: 'MyFont';
+
+  src: url('./Hero-Regular.ttf') format('truetype');
+
+  font-weight: 600;
+
+  font-style: normal;
+
+}
+.hello {
+  color: red;
+  font-family: 'MyFont';
+  background: url("../kai-mason-BNMKtpMgkUw-unsplash.jpg");
+}
+/*# sourceMappingURL=style.css.map */

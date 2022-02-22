@@ -1,0 +1,20 @@
+input {
+  margin-bottom: 2%;
+}
+
+.error {
+  color: red;
+}
+
+input:invalid {
+  background-color: lightcoral;
+}
+
+input:valid {
+  background-color: lightgreen;
+}
+
+.invalid {
+  background-color: lightcoral !important;
+}
+/*# sourceMappingURL=style.css.map */
